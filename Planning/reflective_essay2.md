@@ -1,0 +1,7 @@
+# Reflective Essay 2 — Team 6: Bus Stop Merge (approx. 200 words)
+
+During our work on Team 6’s bus stop merge project, I deepened my understanding of spatial analysis and the difficult trade-offs between operational efficiency and passenger accessibility. Focusing on a case of two stops only 25 m apart forced me to think beyond simple metrics: merging may reduce running time and costs, but it can also increase walking distance for vulnerable users. Practically, I learned to use GIS mapping and catchment-area thinking to visualise walking radii and to compute potential accessibility loss for different user groups.
+
+Data gaps were the biggest challenge: ridership by stop, origin–destination patterns, and fine-grained boarding/alighting counts were often missing or aggregated. To work around this, I practiced synthetic data creation and sensitivity testing in simulation scenarios, which helped me test how robust our recommendations are under uncertain inputs. I also experimented with AI (chatbot-assisted prompts) to draft SQL queries and to summarise technical notes; importantly, I verified and adjusted all AI outputs manually.
+
+Next steps: prioritise obtaining GTFS/stops data and any available ridership CSVs; run multi-objective optimization examples that balance average passenger walk distance with operator cost; and plan stakeholder-engagement notes that foreground accessibility for elderly and disabled users. This project sharpened my policy-oriented data skills and highlighted the ethical implications of efficiency-driven decisions.
