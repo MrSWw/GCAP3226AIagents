@@ -1,0 +1,7 @@
+Reflective Essay: Government Enquiries and AI Assistance in Policy Analysis (Team 6)
+
+Drafting a government enquiry letter for our Team 6 bus stop merge project was a challenging but rewarding experience. I learned that formal communication with government departments requires clarity, precision, and respect for official protocols. When requesting data, it is essential to specify exactly what is needed—such as bus stop locations, passenger flow, and accessibility features—while also addressing privacy, data format preferences, and the department’s operational constraints. Writing the letter made me appreciate the importance of transparency and professionalism in public sector communication.
+
+AI tools played a significant role in this process. They helped me structure the enquiry letter, suggest appropriate language, and ensure that my requests were both polite and comprehensive. However, I found that manual review and editing were still necessary to tailor the message to our academic context and to anticipate possible concerns from the data custodians.
+
+This experience highlighted how critical data access is for participatory policy analysis. Without detailed and reliable data, it is difficult to evaluate the real impacts of policy changes or to ensure that recommendations are evidence-based and equitable. The process also reinforced the value of combining technical skills with effective communication. As part of Team 6, I now better understand how government engagement and AI assistance can empower more rigorous and inclusive policy research.
