@@ -1,0 +1,560 @@
+[
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T12:52:20+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:04:32+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:17:14+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T12:52:20+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:04:32+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:17:14+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T12:52:20+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:04:32+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:17:14+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "274",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "274P",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "64X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "65X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3F24CFF9046300D9",
+    "route": "82D",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "33ABA49F0E91A247",
+    "route": "263C",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "33ABA49F0E91A247",
+    "route": "272P",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "33ABA49F0E91A247",
+    "route": "272P",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "33ABA49F0E91A247",
+    "route": "272X",
+    "direction": "O",
+    "eta": "2025-10-28T12:56:43+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "33ABA49F0E91A247",
+    "route": "272X",
+    "direction": "O",
+    "eta": "2025-10-28T13:25:58+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "33ABA49F0E91A247",
+    "route": "73D",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "33ABA49F0E91A247",
+    "route": "900",
+    "direction": "O",
+    "eta": "2025-10-28T13:03:29+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "33ABA49F0E91A247",
+    "route": "900X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "33ABA49F0E91A247",
+    "route": "907D",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "07AB149DAD888683",
+    "route": "271B",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "07AB149DAD888683",
+    "route": "74",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "07AB149DAD888683",
+    "route": "74D",
+    "direction": "O",
+    "eta": "2025-10-28T13:26:41+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "07AB149DAD888683",
+    "route": "74P",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "07AB149DAD888683",
+    "route": "96",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "4A0ECA0D5AA4CB7E",
+    "route": "A47X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "4A0ECA0D5AA4CB7E",
+    "route": "A47X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "4A0ECA0D5AA4CB7E",
+    "route": "NA47",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "St. Martin"
+  },
+  {
+    "stop_id": "3A7AC3A5F9530786",
+    "route": "271B",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "3A7AC3A5F9530786",
+    "route": "74",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "3A7AC3A5F9530786",
+    "route": "74D",
+    "direction": "O",
+    "eta": "2025-10-28T13:27:48+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "3A7AC3A5F9530786",
+    "route": "74P",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "3A7AC3A5F9530786",
+    "route": "96",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "023E9E5A9E073E1A",
+    "route": "263C",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "023E9E5A9E073E1A",
+    "route": "272P",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "023E9E5A9E073E1A",
+    "route": "272P",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "023E9E5A9E073E1A",
+    "route": "272X",
+    "direction": "O",
+    "eta": "2025-10-28T12:57:47+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "023E9E5A9E073E1A",
+    "route": "272X",
+    "direction": "O",
+    "eta": "2025-10-28T13:27:04+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "023E9E5A9E073E1A",
+    "route": "73D",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "023E9E5A9E073E1A",
+    "route": "900",
+    "direction": "O",
+    "eta": "2025-10-28T13:04:20+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "023E9E5A9E073E1A",
+    "route": "900X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "023E9E5A9E073E1A",
+    "route": "907D",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T12:53:32+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:05:45+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:18:28+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T12:53:32+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:05:45+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:18:28+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T12:53:32+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:05:45+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:18:28+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "274",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "274P",
+    "direction": "I",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "64X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "65X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "B34F59A0270AEDA4",
+    "route": "82D",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "437CE05BCFE6248C",
+    "route": "A47X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "437CE05BCFE6248C",
+    "route": "A47X",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  },
+  {
+    "stop_id": "437CE05BCFE6248C",
+    "route": "NA47",
+    "direction": "O",
+    "eta": null,
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T12:49:16+08:00",
+    "station": "CHONG SAN ROAD"
+  }
+]
