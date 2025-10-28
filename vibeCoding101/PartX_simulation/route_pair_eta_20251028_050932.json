@@ -1,0 +1,182 @@
+[
+  {
+    "queried_stop_id": "3F24CFF9046300D9",
+    "stop_name_en": "St MARTIN (PA206)",
+    "stop_name_tc": "雲滙 (PA206)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:18:05+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "3F24CFF9046300D9",
+    "stop_name_en": "St MARTIN (PA206)",
+    "stop_name_tc": "雲滙 (PA206)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:29:14+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "3F24CFF9046300D9",
+    "stop_name_en": "St MARTIN (PA206)",
+    "stop_name_tc": "雲滙 (PA206)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:41:14+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "3F24CFF9046300D9",
+    "stop_name_en": "St MARTIN (PA206)",
+    "stop_name_tc": "雲滙 (PA206)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:18:05+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "3F24CFF9046300D9",
+    "stop_name_en": "St MARTIN (PA206)",
+    "stop_name_tc": "雲滙 (PA206)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:29:14+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "3F24CFF9046300D9",
+    "stop_name_en": "St MARTIN (PA206)",
+    "stop_name_tc": "雲滙 (PA206)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:41:14+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "3F24CFF9046300D9",
+    "stop_name_en": "St MARTIN (PA206)",
+    "stop_name_tc": "雲滙 (PA206)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:18:05+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "3F24CFF9046300D9",
+    "stop_name_en": "St MARTIN (PA206)",
+    "stop_name_tc": "雲滙 (PA206)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:29:14+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "3F24CFF9046300D9",
+    "stop_name_en": "St MARTIN (PA206)",
+    "stop_name_tc": "雲滙 (PA206)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:41:14+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "B34F59A0270AEDA4",
+    "stop_name_en": "CHONG SAN ROAD (PA212)",
+    "stop_name_tc": "創新路 (PA212)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:19:18+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "B34F59A0270AEDA4",
+    "stop_name_en": "CHONG SAN ROAD (PA212)",
+    "stop_name_tc": "創新路 (PA212)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:30:28+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "B34F59A0270AEDA4",
+    "stop_name_en": "CHONG SAN ROAD (PA212)",
+    "stop_name_tc": "創新路 (PA212)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:42:28+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "B34F59A0270AEDA4",
+    "stop_name_en": "CHONG SAN ROAD (PA212)",
+    "stop_name_tc": "創新路 (PA212)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:19:18+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "B34F59A0270AEDA4",
+    "stop_name_en": "CHONG SAN ROAD (PA212)",
+    "stop_name_tc": "創新路 (PA212)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:30:28+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "B34F59A0270AEDA4",
+    "stop_name_en": "CHONG SAN ROAD (PA212)",
+    "stop_name_tc": "創新路 (PA212)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:42:28+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "B34F59A0270AEDA4",
+    "stop_name_en": "CHONG SAN ROAD (PA212)",
+    "stop_name_tc": "創新路 (PA212)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:19:18+08:00",
+    "eta_seq": 1,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "B34F59A0270AEDA4",
+    "stop_name_en": "CHONG SAN ROAD (PA212)",
+    "stop_name_tc": "創新路 (PA212)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:30:28+08:00",
+    "eta_seq": 2,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  },
+  {
+    "queried_stop_id": "B34F59A0270AEDA4",
+    "stop_name_en": "CHONG SAN ROAD (PA212)",
+    "stop_name_tc": "創新路 (PA212)",
+    "route": "272A",
+    "direction": "O",
+    "eta": "2025-10-28T13:42:28+08:00",
+    "eta_seq": 3,
+    "data_timestamp": "2025-10-28T13:08:46+08:00"
+  }
+]
