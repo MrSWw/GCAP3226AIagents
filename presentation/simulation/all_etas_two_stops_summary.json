@@ -1,0 +1,24 @@
+{
+  "files_searched": 4,
+  "files_with_matches": 0,
+  "total_rows": 0,
+  "per_file": [
+    {
+      "file": "/workspaces/GCAP3226AIagents/vibeCoding101/PartX_simulation/monitor_outputs_1hr/monitor_summary_20251105_070549.csv",
+      "matched": 0
+    },
+    {
+      "file": "/workspaces/GCAP3226AIagents/vibeCoding101/PartX_simulation/monitor_outputs_1hr/monitor_summary_both_20251105_070549.csv",
+      "matched": 0
+    },
+    {
+      "file": "/workspaces/GCAP3226AIagents/vibeCoding101/PartX_simulation/monitor_outputs_60min/monitor_summary_20251031_062043.csv",
+      "matched": 0
+    },
+    {
+      "file": "/workspaces/GCAP3226AIagents/vibeCoding101/PartX_simulation/monitor_outputs_until_0830/monitor_summary_20251104_003106.csv",
+      "matched": 0
+    }
+  ],
+  "output_csv": "presentation/simulation/all_etas_two_stops.csv"
+}

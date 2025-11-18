@@ -1,0 +1,7 @@
+Effective Communication Strategies — Reflective Essay
+
+Effective communication was central to our monitoring project and proved decisive in delivering usable results. Early alignment on scope — monitoring two adjacent stops and collecting ETA fields — reduced rework and clarified expectations for outputs (CSV/JSON/plots). We used shared artifacts (README, CSV headers, analysis JSON) as a common vocabulary, which helped bridge technical and non-technical team members and ensured consistent interpretation of columns like snapshot_ts and eta.
+
+Real-time visuals (per-minute counts, wait distributions) made data quality issues visible: null-ETA occurrences and outliers became actionable discussion points rather than abstract bugs. When serialization and timezone errors appeared, transparent logging and quick hotfixes maintained trust and kept development moving. We deliberately chose low-cost experiments (simple polling, retry logic) before building more complex features; this iterative approach decreased risk and enabled gradual improvement.
+
+Finally, translating technical metrics into decision-ready summaries (mean wait, top outliers, completeness) helped stakeholders make choices without wading through raw data. The project reinforced that clear goals, shared artifacts, timely visualization, and transparent error handling are the practical pillars of effective communication in data-driven teamwork.

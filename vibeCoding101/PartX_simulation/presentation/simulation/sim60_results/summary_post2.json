@@ -1,0 +1,26 @@
+{
+  "scenario": "post2",
+  "summary": {
+    "n_reps": 200,
+    "avg_wait_mean": 176.2374809970439,
+    "avg_wait_ci": [
+      131.74526515151516,
+      218.38940677966102
+    ],
+    "median_wait_mean": 110.525,
+    "p90_wait_mean": 445.86800000000005,
+    "total_walk_mean": 7200.0,
+    "total_walk_ci": [
+      5280.0,
+      9003.0
+    ],
+    "avg_total_travel_mean": 377.11086229200794,
+    "avg_total_travel_ci": [
+      332.61864644647915,
+      419.26278807462506
+    ],
+    "mean_boarded": 60.0,
+    "mean_remaining_queue": 0.0,
+    "mean_dwell": 11.518987341772151
+  }
+}

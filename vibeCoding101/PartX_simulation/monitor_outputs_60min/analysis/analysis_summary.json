@@ -1,0 +1,172 @@
+{
+  "csv": "monitor_summary_20251031_062043.csv",
+  "total_rows": 2055,
+  "time_span": {
+    "start": "2025-10-31T05:20:43.449093+00:00",
+    "end": "2025-10-31T06:20:37.156644+00:00"
+  },
+  "per_stop": {
+    "3F24CFF9046300D9": {
+      "rows": 1032,
+      "distinct_routes": 1,
+      "mean_wait_s": 1022.6498928691861,
+      "median_wait_s": 999.450207,
+      "min_wait_s": 2.465231,
+      "max_wait_s": 2100.121811,
+      "mean_wait_per_min_plot": "mean_wait_per_min_3F24CFF9046300D9.png",
+      "counts_per_min_plot": "counts_per_min_3F24CFF9046300D9.png"
+    },
+    "B34F59A0270AEDA4": {
+      "rows": 1023,
+      "distinct_routes": 1,
+      "mean_wait_s": 1015.0965709882698,
+      "median_wait_s": 1021.540181,
+      "min_wait_s": 1.843356,
+      "max_wait_s": 2088.760018,
+      "mean_wait_per_min_plot": "mean_wait_per_min_B34F59A0270AEDA4.png",
+      "counts_per_min_plot": "counts_per_min_B34F59A0270AEDA4.png"
+    }
+  },
+  "top_outliers": [
+    {
+      "snapshot_local": "2025-10-31T06:06:32.878189+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2100.121811
+    },
+    {
+      "snapshot_local": "2025-10-31T06:06:32.878189+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2100.121811
+    },
+    {
+      "snapshot_local": "2025-10-31T06:06:32.878189+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2100.121811
+    },
+    {
+      "snapshot_local": "2025-10-31T06:08:03.239982+00:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2088.760018
+    },
+    {
+      "snapshot_local": "2025-10-31T06:08:03.239982+00:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2088.760018
+    },
+    {
+      "snapshot_local": "2025-10-31T06:08:03.239982+00:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2088.760018
+    },
+    {
+      "snapshot_local": "2025-10-31T05:54:57.668317+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2075.331683
+    },
+    {
+      "snapshot_local": "2025-10-31T05:54:57.668317+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2075.331683
+    },
+    {
+      "snapshot_local": "2025-10-31T05:54:57.668317+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2075.331683
+    },
+    {
+      "snapshot_local": "2025-10-31T06:07:02.991431+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2070.008569
+    },
+    {
+      "snapshot_local": "2025-10-31T06:07:02.991431+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2070.008569
+    },
+    {
+      "snapshot_local": "2025-10-31T06:07:02.991431+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2070.008569
+    },
+    {
+      "snapshot_local": "2025-10-31T05:56:28.356693+00:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2063.643307
+    },
+    {
+      "snapshot_local": "2025-10-31T05:56:28.356693+00:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2063.643307
+    },
+    {
+      "snapshot_local": "2025-10-31T05:56:28.356693+00:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2063.643307
+    },
+    {
+      "snapshot_local": "2025-10-31T06:08:33.360651+00:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2058.639349
+    },
+    {
+      "snapshot_local": "2025-10-31T06:08:33.360651+00:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2058.639349
+    },
+    {
+      "snapshot_local": "2025-10-31T06:08:33.360651+00:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2058.639349
+    },
+    {
+      "snapshot_local": "2025-10-31T05:55:28.106580+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2044.89342
+    },
+    {
+      "snapshot_local": "2025-10-31T05:55:28.106580+00:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "272A",
+      "eta_seq": 3,
+      "wait_s": 2044.89342
+    }
+  ]
+}

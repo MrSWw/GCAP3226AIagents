@@ -1,0 +1,104 @@
+{
+  "csv": "monitor_summary_20251104_003106.csv",
+  "total_rows": 5035,
+  "time_span": {
+    "start": "2025-11-04 06:34:06.216383+08:00",
+    "end": "2025-11-04 08:30:59.075127+08:00"
+  },
+  "per_stop": {
+    "3F24CFF9046300D9": {
+      "rows": 2479,
+      "distinct_routes": 5,
+      "mean_wait_s": 957.9974670088744,
+      "median_wait_s": 844.220854,
+      "min_wait_s": 1.393677,
+      "max_wait_s": 3417.571026,
+      "mean_wait_per_min_plot": "mean_wait_per_min_3F24CFF9046300D9.png",
+      "counts_per_min_plot": "counts_per_min_3F24CFF9046300D9.png"
+    },
+    "B34F59A0270AEDA4": {
+      "rows": 2556,
+      "distinct_routes": 5,
+      "mean_wait_s": 958.6088901216744,
+      "median_wait_s": 827.936622,
+      "min_wait_s": 1.766633,
+      "max_wait_s": 3484.214363,
+      "mean_wait_per_min_plot": "mean_wait_per_min_B34F59A0270AEDA4.png",
+      "counts_per_min_plot": "counts_per_min_B34F59A0270AEDA4.png"
+    }
+  },
+  "combined_plot": "combined_mean_wait.png",
+  "eta_seq_hist": "wait_hist_by_eta_seq.png",
+  "top_outliers": [
+    {
+      "snapshot_local": "2025-11-04 07:17:22.785637+08:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "274",
+      "eta_seq": 1,
+      "wait_s": 3484.214363
+    },
+    {
+      "snapshot_local": "2025-11-04 07:15:22.279661+08:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "65X",
+      "eta_seq": 1,
+      "wait_s": 3478.720339
+    },
+    {
+      "snapshot_local": "2025-11-04 07:17:53.000775+08:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "274",
+      "eta_seq": 1,
+      "wait_s": 3453.999225
+    },
+    {
+      "snapshot_local": "2025-11-04 07:15:52.428974+08:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "65X",
+      "eta_seq": 1,
+      "wait_s": 3448.571026
+    },
+    {
+      "snapshot_local": "2025-11-04 07:16:22.564240+08:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "65X",
+      "eta_seq": 1,
+      "wait_s": 3437.43576
+    },
+    {
+      "snapshot_local": "2025-11-04 07:18:23.198399+08:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "274",
+      "eta_seq": 1,
+      "wait_s": 3423.801601
+    },
+    {
+      "snapshot_local": "2025-11-04 07:15:52.428974+08:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "65X",
+      "eta_seq": 1,
+      "wait_s": 3417.571026
+    },
+    {
+      "snapshot_local": "2025-11-04 07:17:22.785637+08:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "65X",
+      "eta_seq": 1,
+      "wait_s": 3414.214363
+    },
+    {
+      "snapshot_local": "2025-11-04 07:17:22.785637+08:00",
+      "queried_stop_id": "3F24CFF9046300D9",
+      "route": "274",
+      "eta_seq": 1,
+      "wait_s": 3408.214363
+    },
+    {
+      "snapshot_local": "2025-11-04 07:16:52.697185+08:00",
+      "queried_stop_id": "B34F59A0270AEDA4",
+      "route": "65X",
+      "eta_seq": 1,
+      "wait_s": 3407.302815
+    }
+  ]
+}

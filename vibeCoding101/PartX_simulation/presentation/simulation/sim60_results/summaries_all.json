@@ -1,0 +1,71 @@
+{
+  "pre": {
+    "n_reps": 200,
+    "avg_wait_mean": 238.71115776099722,
+    "avg_wait_ci": [
+      192.955,
+      290.4810606060606
+    ],
+    "median_wait_mean": 208.54,
+    "p90_wait_mean": 520.715,
+    "total_walk_mean": 0.0,
+    "total_walk_ci": [
+      0.0,
+      0.0
+    ],
+    "avg_total_travel_mean": 319.58453905596133,
+    "avg_total_travel_ci": [
+      273.82838129496406,
+      371.35444190102464
+    ],
+    "mean_boarded": 60.535,
+    "mean_remaining_queue": 0.0,
+    "mean_dwell": 11.53253164556962
+  },
+  "post1": {
+    "n_reps": 200,
+    "avg_wait_mean": 173.46042203083212,
+    "avg_wait_ci": [
+      136.43988530585108,
+      215.6069741532977
+    ],
+    "median_wait_mean": 103.7875,
+    "p90_wait_mean": 442.57300000000004,
+    "total_walk_mean": 7208.1,
+    "total_walk_ci": [
+      5220.0,
+      9544.500000000002
+    ],
+    "avg_total_travel_mean": 374.3157843475629,
+    "avg_total_travel_ci": [
+      329.7518627273248,
+      415.4285283537876
+    ],
+    "mean_boarded": 60.025,
+    "mean_remaining_queue": 0.0,
+    "mean_dwell": 11.519620253164558
+  },
+  "post2": {
+    "n_reps": 200,
+    "avg_wait_mean": 176.2374809970439,
+    "avg_wait_ci": [
+      131.74526515151516,
+      218.38940677966102
+    ],
+    "median_wait_mean": 110.525,
+    "p90_wait_mean": 445.86800000000005,
+    "total_walk_mean": 7200.0,
+    "total_walk_ci": [
+      5280.0,
+      9003.0
+    ],
+    "avg_total_travel_mean": 377.11086229200794,
+    "avg_total_travel_ci": [
+      332.61864644647915,
+      419.26278807462506
+    ],
+    "mean_boarded": 60.0,
+    "mean_remaining_queue": 0.0,
+    "mean_dwell": 11.518987341772151
+  }
+}

@@ -1,0 +1,73 @@
+Part 3 — Preliminary Analysis & Findings
+完整逐字講稿（繁體中文，合併所有投影片）
+
+總建議時長：4:00–6:30（可再視情況壓縮）
+
+Slide 1 — Preliminary Analysis & Findings — St. Martin Rd vs Chong San Rd（建議 0:15）
+逐字講稿：
+「各位好，這一節我會報告初步分析，重點比較 St. Martin Road 與 Chong San Road 的現況，並說明我們將如何模擬兩種干預情境：合併站位（stop merge）與路線分拆（route split）。我們使用政府與營運商的即時 ETA 快照，並把快照匯整成 CSV 進行分析。舉例來說，1 小時實驗產生 120 個 snapshot，對應的 consolidated CSV 存在 `vibeCoding101/PartX_simulation/monitor_outputs_1hr/`。接下來我會先摘要關鍵指標與觀察到的模式。」
+
+Slide 2 — Key metrics computed（建議 0:25）
+逐字講稿：
+「在資料處理流程中，我們計算了幾項核心 KPI：等待時間 wait_s（由 ETA 減去 snapshot 時間）、各路線的 ETA 次數（route counts）、null-ETA 比率、每分鐘平均等待，以及由 ETA 推估的 headway 代理量。我們也計算去除 top 1% 極端值後的平均值（mean_wait_cleaned），作為較穩定的代表值。後續模擬結果皆以這些 KPI 作為基準比較。」
+
+Slide 3 — Wait time distribution（建議 1:00）
+逐字講稿：
+「這張圖展示監測期間的等待時間分布（參見 `monitor_outputs_60min/analysis/wait_distribution.png` 或 `monitor_outputs_until_0830/analysis/wait_distribution.png`）。分布呈現右偏：大部分 ETA 集中在較短等待，約 1–3 分鐘內，但存在明顯的長尾，部分 ETA 顯示等待顯著增加。長尾可能反映擁塞、車群（bunching），或 API 回傳延遲。為了降低極端值的影響，我們同時提供 trimmed mean（mean_wait_cleaned）作為比較指標。」
+
+Slide 4 — Mean wait per minute (cleaned)（建議 1:10）
+逐字講稿：
+「這張時間序列圖（檔名：`mean_wait_cleaned.png` 與 `combined_mean_wait.png`）展示每分鐘（以及已做 5／10 分鐘彙整版本）的清洗後平均等待趨勢。主要觀察：高峰時段平均等待普遍上升，且有些快照出現尖峰，顯示暫時不穩定；5 或 10 分鐘彙整能降低雜訊，讓趨勢更明顯、有利比較兩站的變化。」
+
+Slide 5 — Route counts (top 20)（建議 0:50）
+逐字講稿：
+「這張長條圖（`route_counts_top20.png`）顯示監測期間出現頻率最高的路線。少數路線佔較大比例，代表該路線在該區域服務頻繁或路線集中。若同一路線在同一 snapshot 同時出現在兩站，通常代表短 headway 或車群現象，這會降低服務穩定性，是我們在考量合併或重新配置站位時要特別注意的情況。」
+
+Slide 6 — Null ETA & data issues（建議 0:35）
+逐字講稿：
+「我們發現部分回傳紀錄的 `eta == null`（raw snapshot 可見於 `vibeCoding101/PartX_simulation/monitor_outputs_1hr/`）。null-ETA 會讓無法直接計算等待時間，減少有效樣本。處理方式包括：計算並報告 null-rate、在數值統計中排除或註記 null 條目，並把有問題的 snapshot 標註以便後續檢查。若要進一步改善，可能需要延長監測或與營運單位合作取得更完整資料。」
+
+Slide 7 — Simulation objectives & contract（建議 0:40）
+逐字講稿：
+「模擬的高層目標是量化兩種干預對 KPI 的影響：A) 合併兩站成一個站位，B) 把高頻路線分拆，使一半車輛服務 St. Martin、一半服務 Chong San。模擬合約包括：輸入為觀測到的到達分布（ETA 派生的 headway）、路線頻率、以及估計的停站停留時間（dwell），輸出為模擬得到的乘客等待分布、每站每路線到達量、90th 百分位等待與 null-rate 代理值。我們將進行多次隨機重複以估計平均值及 95% 信賴區間。」
+
+Slide 8 — Scenario A — Merge stops（建議 0:50）
+逐字講稿：
+「情境 A：合併站位。我們把 St. Martin 與 Chong San 合併為中點站位，假設重疊路線會把到達流合併，並假設合併後的停站停留時間會因上車量增加而略升，形式化表示為 dwell = base_dwell + alpha * arrivals。我們會在不同需求情境下模擬：目前觀測需求、以及 +10% 與 +25% 的情境。比較指標包括：平均等待、90th 百分位等待與乘客吞吐量。假設是：合併可減少重複服務，但若停站延長過多，可能造成淨效益降低。」
+
+Slide 9 — Scenario B — Split route (half/half)（建議 0:50）
+逐字講稿：
+「情境 B：路線分拆。我們把特定高頻路線分成兩組車輛分別服務兩站，約為 50/50 的車輛配置。實作假設以車輛分派為主，而非乘客改道；分拆後各子段的 headway 將增加（大致翻倍）。我們會測試不同分配規則（交替分配或機率性分配）與遵循度敏感度。比較 KPI 包含每站平均等待、等待變異度與同一路線共現頻率。假設：分拆可降低單站擁擠與等待變異，但若 headway 增幅太大，平均等待可能上升。」
+
+Slide 10 — Model mechanics & validation（建議 0:35）
+逐字講稿：
+「模擬器是用 Python 實作的離散事件模型（參見 `sim_kmb_stops.py`）。核心機制：根據觀測的 ETA 推估到達間隔分布以產生車輛到達事件；乘客到達以每分鐘速率的 Poisson 過程建模（由路線計數估計）；上車耗用 dwell 時間；情境規則決定車輛分配與路線行為。驗證方式是先讓模擬在 baseline 情況下重複執行，並把模擬結果的 KPI（平均等待、每分鐘到達量、路線共現率）與實際觀測比較，確認模型能再現觀察到的行為後，才執行干預情境比較。」
+
+Slide 11 — KPIs & visuals from simulation（建議 0:30）
+逐字講稿：
+「每個情境的呈現會包含：基線與情境的 KPI 表（平均與 95% CI，包含 mean wait、90th）、重疊的等待時間直方圖、每分鐘平均等待的時間序列、以及顯示預期乘客吞吐與 dwell 影響的小表格。我們會把圖檔儲存在 `vibeCoding101/PartX_simulation/sim_outputs/<scenario>/`，以便複現與分享。」
+
+Slide 12 — Preliminary conclusions & next steps（建議 0:25）
+逐字講稿：
+「總結目前的初步結論：實測資料顯示等待時間有長尾與車群現象，這支持我們測試合併站位與分拆路線兩種干預。接下來我們會驗證模擬器的 baseline，再做敏感度分析（需求與 dwell 假設），最後比較 KPI 變化並提供政策建議。這就是 Part 3 的內容。」
+
+--- 以下為 appendix 圖表與摘要（可保留在 appendix 或備查）
+
+Slide 13 — Peak vs Off-peak: Travel Time Distribution（建議 0:20）
+逐字講稿：
+「這張圖為峰時與離峰之間的旅行時間分布比較直方圖（已存在於簡報並存檔）。整體趨勢顯示峰時分布右側變得更厚，代表有較多較長的旅行時間。」
+
+Slide 14 — Travel time: Off-peak vs Peak (boxplot)（建議 0:20）
+逐字講稿：
+「這張箱型圖呈現峰時與離峰旅行時間的分布摘要，包括中位數、四分位距以及離群值。可以看到峰時的變異顯著增加，且上緣與離群值更多，表示在高峰期偶發的長延遲更常出現。」
+
+Slide 15 — ECDF: Peak vs Off-peak（建議 0:25）
+逐字講稿：
+「這張 ECDF（經驗累積分布函數）將兩個分布並列，便於比較例如 50%、90% 分位點在兩個時段的差異。由圖可見，於較高百分位（例如 90%）峰時的旅行時間顯著大於離峰，說明風險（長等待）的增加不是平均效應，而是尾端效應。」
+
+Slide 16 — Summary: travel time comparison (peak vs off-peak)（建議 0:20）
+逐字講稿：
+「數值摘要如下（簡報內數字）：離峰樣本數 n=105，平均約 78 秒，中位 78 秒，90th 約 82 秒；峰時 n=695，平均約 81 秒，中位 79 秒，90th 約 129 秒。峰時平均約多 2.8 秒，中位多 1 秒，但 90th 大幅增加約 47 秒。結論是：多數情況等待差異小，但在高峰時段尾端風險顯著提高，代表乘客面臨更大延誤風險。此發現將作為模擬情境比對與政策建議的量化依據。」
+
+
+如果你要我把這份中文逐字稿直接寫回到 PPTX 的 speaker notes（覆寫英文稿），我可以幫你完成，並存成 `Part3_with_simulation_cn.pptx`（備份原始檔）。請回覆「請覆寫 PPTX」或「先不要覆寫，我只要檔案」。
