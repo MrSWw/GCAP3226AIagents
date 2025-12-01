@@ -1,0 +1,14 @@
+{
+  "timestamp": "2025-11-24T04:16:13.736779+08:00",
+  "horizon_min": 60,
+  "stops": [
+    {
+      "stop_id": "3F24CFF9046300D9",
+      "rows": []
+    },
+    {
+      "stop_id": "B34F59A0270AEDA4",
+      "rows": []
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+route,peak_or_offpeak,samples,travel_mean_sec,travel_median_sec,travel_min_sec,travel_max_sec
+272A,off-peak,216,117.25,112.0,72.0,140.0
+272A,peak,509,121.93,124.0,64.0,188.0
+274,peak,194,82.31,84.0,2.0,168.0
+82D,peak,98,93.97,94.0,93.0,94.0

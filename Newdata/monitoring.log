@@ -1,0 +1,16 @@
+==========================================
+Starting Long-Term Monitoring
+Start Time: Sun Nov 23 23:24:48 HKT 2025
+Duration: 96 hours (4 days)
+Interval: 30 seconds
+Stops: 3F24CFF9046300D9 (St. Martin) and B34F59A0270AEDA4 (Chong San)
+Routes: 272A 272X 271B 274 274P 65X 82D 900 64X 74D 74P 96 A47X NA47 272P 900X 907D 263C 73D
+Output Directory: raw_data/monitoring_20251123_232448_96hours
+==========================================
+
+./start_long_term_monitoring.sh: line 51: ES: command not found
+
+==========================================
+Monitoring Completed
+End Time: Sun Nov 23 23:26:33 HKT 2025
+==========================================
